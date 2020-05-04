@@ -64,6 +64,15 @@ main{
 
 @media screen and (max-width: 768px){
 	main{
+		width:90%;
+		margin:50px auto;
+	}
+
+	.box{
 		width:100%;
+	}
+
+	.box:nth-child(2){
+		margin:20px auto;
 	}
 }
